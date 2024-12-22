@@ -153,11 +153,11 @@ p {
 
 .trending-title {
     text-transform: uppercase;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
     position: relative;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
@@ -204,14 +204,14 @@ p {
     color: #9d8a4e;
     text-transform: uppercase;
     text-align: left;
-    margin-left: 35px;
-    margin-top: 35px;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 
 .trending-chapter {
-    margin: 0 35px 35px 35px;
-    font-size: 20px;
-    line-height: 24px;
+    margin: 0 25px 25px 25px;
+    font-size: 16px;
+    line-height: 19px;
     text-align: left;
 }
 
@@ -811,8 +811,17 @@ p {
      display: none;
  }
 
+@media (min-width: 1000px) and (orientation: portrait) {
+    .trending-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 
-
+@media (min-width: 1000px) and (orientation: landscape) {
+    .trending-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
 
