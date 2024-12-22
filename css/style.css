@@ -88,7 +88,6 @@ p {
 .header-title {
     font-size: 45px;
     line-height: 75px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     max-width: 48%;
     text-align: center;
     margin: 0 auto;

@@ -86,21 +86,21 @@ p {
 }
 
 .header-title {
+    width: 90%;
     font-size: 40px;
     line-height: 55px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
     z-index: 2;
+    margin: 0 auto;
 }
 
 .header-menu {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 50px;
+    right: 30px;
     z-index: 3;
 }
 
-/* Скрытое меню по умолчанию */
 .menu-list {
     list-style: none;
     display: none;
@@ -116,7 +116,6 @@ p {
     z-index: 3;
 }
 
-/* Стили для кнопки бургера */
 .menu-toggle {
     display: none;
 }
@@ -146,10 +145,6 @@ p {
     transition: color 0.3s;
     text-transform: uppercase;
     padding: 5px 8px;
-}
-
-.menu-list a:hover {
-    color: #9c8967;
 }
 
 .trending {
