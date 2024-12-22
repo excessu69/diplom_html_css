@@ -498,6 +498,7 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 35px;
 }
 
 .product-item {
@@ -510,9 +511,22 @@ p {
 
 .product-image {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 227px;
+    background-size: cover;
+    background-position: center;
     margin: 10px 0 40px 0;
+}
+
+.product-item-1 .product-image {
+    background-image: url('../images/shop-item-tablet1.jpg');
+}
+
+.product-item-2 .product-image {
+    background-image: url('../images/shop-item-tablet2.jpg');
+}
+
+.product-item-3 .product-image {
+    background-image: url('../images/shop-item-tablet3.jpg');
 }
 
 .product-info {
